@@ -9,7 +9,9 @@ const Footballer = (props) => {
             <div className="picture">
                 <img src={image} alt="" srcset="" />
                 <br />
-                <button id="add-Transfer"><FontAwesomeIcon icon={faUserPlus} />  Add to Transfer</button>
+                <button id="add-Transfer"
+                    onClick={() => props.handleAddPlayer(props.player)}
+                ><FontAwesomeIcon icon={faUserPlus} />  Add to Team</button>
             </div>
             <div className="Info">
                 <h3>{name}</h3>
@@ -24,8 +26,8 @@ const Footballer = (props) => {
                     <b>Transfer Fee: </b>€ {transfer_fee} million
                 <br />
                 </p>
-
             </div>
+
         </div>
     );
 };

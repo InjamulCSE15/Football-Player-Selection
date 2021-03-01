@@ -1,8 +1,10 @@
 .player{
+    margin-left: 30%;
     margin-top: 15px;
     display: flex;
 }
 .Info{
+    margin-top: 10px;
     margin-left: 10px;
 }
 #add-Transfer{
