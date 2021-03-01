@@ -1,0 +1,21 @@
+.player{
+    margin-top: 15px;
+    display: flex;
+}
+.Info{
+    margin-left: 10px;
+}
+#add-Transfer{
+    height: 30px;
+    width: 100%;
+    background-color: goldenrod;
+    color: black;
+    font-size: medium;
+    border-color: orange;
+    border-radius: 5px;
+}
+
+#add-Transfer:hover{
+    background-color:tomato;
+    cursor: pointer;
+}

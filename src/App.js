@@ -1,8 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 import squadData from './fakeData/data.json';
 import { useEffect, useState } from 'react';
 import Header from './components/Header/Header';
+import Players from './components/Players/Players';
+
+
 function App() {
   const [player, setPlayer] = useState([]);
   useEffect(() =>{
@@ -12,6 +15,7 @@ function App() {
   return (
     <div>
       <Header></Header>
+      <Players></Players>
     </div>
   );
 }
