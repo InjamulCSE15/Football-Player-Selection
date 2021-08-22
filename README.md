@@ -1,3 +1,7 @@
+# Football-Player-Selection
+
+<b><a href="https://wizardly-shirley-c1eeef.netlify.app/" target="blank" title="Go to live site">View Live Preview</a></b>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
